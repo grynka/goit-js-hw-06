@@ -4,5 +4,5 @@ const textSpan = document.querySelector("#text");
 
 
 dataInput.addEventListener("input", () => {
-    textSpan.setAttribute("style", `font-size:${dataInput.value}px`);
+    textSpan.style.fontSize = `${dataInput.value}px`;
 });
